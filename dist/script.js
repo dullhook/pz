@@ -12,7 +12,7 @@
 // let time = +prompt("Введите время");
 // alert(km / time);
 // let dol = +prompt("Введите количество евро")
-// const euro = dol * 1.08; 
+// const euro = dol * 1.08;
 // alert(euro)
 // let gb = +prompt("Введите количество ГБ");
 // flesh = gb * 1024;
@@ -29,8 +29,8 @@
 // d = Math.floor(a / 100);
 // alert(b + "" + c + "" + d);
 // let a = +prompt("Целое число");
-// b = (a / 2) * 10;
-// c = b % 10;
+// let b = (a / 2) * 10;
+// let c = b % 10;
 // alert((c > 0) + " True - число нечетное, false = чётное.");
 // ? Дз 2
 // var age = +prompt("Введите ваш возраст")
@@ -48,34 +48,34 @@
 //     default:
 //         alert("я не это просил")
 //         break
-//     case "0": 
+//     case "0":
 //         alert(")")
 //         break
-//     case "1": 
+//     case "1":
 //         alert("!")
 //         break
-//     case "2": 
+//     case "2":
 //         alert("@")
 //         break
-//     case "3": 
+//     case "3":
 //         alert("#")
 //         break
-//     case "4": 
+//     case "4":
 //         alert("$")
 //         break
-//     case "5": 
+//     case "5":
 //         alert("%")
 //         break
-//     case "6": 
+//     case "6":
 //         alert("^")
 //         break
-//     case "7": 
+//     case "7":
 //         alert("&")
 //         break
-//     case "8": 
+//     case "8":
 //         alert("*")
 //         break
-//     case "9": 
+//     case "9":
 //         alert("(")
 // }
 // var a = +prompt("введите трехначное число")
@@ -131,7 +131,7 @@
 // var okr = +prompt("Введите длинну окружности")
 // var sqr = +prompt("Введите периметр квадрата")
 // let d = okr / 3.141
-// let storona = sqr / 4 
+// let storona = sqr / 4
 // if (d <= storona) {
 //     alert("Круг впишется в квадрат")
 // } else {
@@ -215,3 +215,21 @@
 // alert(sum)
 // let date = new Date(2012, 1, 20, 3, 12, 0, 0) //! Для неуказанных значений автоматически выставляется 0
 // alert(date)
+// let man = {
+//     name: "John"
+// }
+// console.log(Object.getOwnPropertyDescriptor(man, 'name'))
+// //* configurable:true enumerable:true value:"John" writable:true
+// let a = +prompt("Введите первое число")
+// let b = +prompt("Введите второе число")
+// let c = 0
+// let e = 0
+// let d = 0
+// for (let i = 1; i <= a || i <= b; i++) {                                             //TODO Доделать позже
+//   e = a / i
+//   d = b / i
+//   if (e == d) {
+//     c = i
+// }
+// }
+// alert("Наибольший общий делитель чисел " + a + " и " + b + " это " + c)
