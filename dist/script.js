@@ -213,6 +213,17 @@
 //     sum+=i
 // }
 // alert(sum)
+// let a = +prompt("Введите первое число")
+// let b = +prompt("Введите второе число")
+// while (a != 0 && b != 0){
+//     if(a > b){
+//         a = a % b
+//     } else {
+//         b = b % a
+//     }
+// }
+// alert(a+b);
+var a = +prompt("Введите число");
 // let date = new Date(2012, 1, 20, 3, 12, 0, 0) //! Для неуказанных значений автоматически выставляется 0
 // alert(date)
 // let man = {
@@ -220,16 +231,3 @@
 // }
 // console.log(Object.getOwnPropertyDescriptor(man, 'name'))
 // //* configurable:true enumerable:true value:"John" writable:true
-// let a = +prompt("Введите первое число")
-// let b = +prompt("Введите второе число")
-// let c = 0
-// let e = 0
-// let d = 0
-// for (let i = 1; i <= a || i <= b; i++) {                                             //TODO Доделать позже
-//   e = a / i
-//   d = b / i
-//   if (e == d) {
-//     c = i
-// }
-// }
-// alert("Наибольший общий делитель чисел " + a + " и " + b + " это " + c)
