@@ -259,27 +259,11 @@
 // alert(a+b);
 
 
-
-
 let a = +prompt("Введите число")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (let i = 1; i<=a; i++) {
+    if (a % i == 0 && a != a && a != 1)
+    []
+}
 
 
 
@@ -295,4 +279,6 @@ let a = +prompt("Введите число")
 // }
 // console.log(Object.getOwnPropertyDescriptor(man, 'name'))
 // //* configurable:true enumerable:true value:"John" writable:true
+
+
 
